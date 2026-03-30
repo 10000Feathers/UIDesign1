@@ -5,8 +5,8 @@
 
 body {
     margin: 40px !important;
-    background-color: red !important;
-    color: white !important;
+    background-color: darkred; 
+    color: white 
 }
 
 h1 {
@@ -61,6 +61,6 @@ img {
 .profile {
     width: 420px;
     display: block;
-    margin-left: -40px;
+    margin-left: 0px;
     border-radius: 12px;
 }
