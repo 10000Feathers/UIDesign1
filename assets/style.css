@@ -1,18 +1,19 @@
 * {
-	margin:  0px;
-	padding:  0px;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* adjusting fonts */
-
 body {
-    font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
-    transition: background 500ms ease;
-    overflow: hidden;
-    background-color: #f5f5f5;
-    color: #222;
+    background-color: lime;
+    color: purple;
+    font-family: Arial, sans-serif;
     margin: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
 .cursive {
@@ -21,55 +22,10 @@ body {
 }
 
 p, li {
-	font-size:  22px;
-	line-height: 30px;
-}
-
-/* adjusting spacing */
-
-#left-column {
-	padding: 20px;
-}
-
-h1 {
-	font-size: 48px;
-	margin-bottom:  10px;
-}
-
-ul, ol {
-	margin-left: 20px;
-}
-
-img {
-	max-width: 100%;
-	height:  auto;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 a {
-    color: #222;
-    text-decoration: none;
+    color: purple;
 }
-
-a:hover {
-    color: #ff4d4d;
-}
-
-/* uncomment the code below to set the grid */
-
-/*#grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.scroll {
-	padding:  20px;
-	overflow: scroll;
-	height: 100vh;
-}
-
-#left-column {
-}
-
-#right-column {
-	background: #333;
-}*/
