@@ -36,16 +36,14 @@ p, li {
 }
 
 a {
-    color: #ffd60a;
+    color: yellow !important;
     text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
 }
 
 a:hover {
     color: orange;
-    text-decoration: underline;
-}
-
-pre {
-    font-family: monospace;
-    line-height: 1;
 }
