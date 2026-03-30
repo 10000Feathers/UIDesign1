@@ -58,15 +58,12 @@ a:hover::after {
 
 img {
     max-width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    height: auto;
 }
 
 .profile {
     width: 420px;
-    height: auto;
     display: block;
     margin: 20px auto;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
