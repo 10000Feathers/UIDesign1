@@ -5,11 +5,9 @@
 }
 
 body {
-    background-color: darkred;
-    color: whitesmoke;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    margin: 40px;
+    margin: 40px !important;
+    background-color: red !important;
+    color: white !important;
 }
 
 h1 {
