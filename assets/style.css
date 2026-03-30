@@ -36,11 +36,12 @@ p, li {
 }
 
 a {
-    color: #yellow;
+    color: #ffd60a;
     text-decoration: none;
 }
 
 a:hover {
+    color: orange;
     text-decoration: underline;
 }
 
