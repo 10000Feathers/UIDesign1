@@ -21,9 +21,9 @@ h1 {
     margin-bottom: 24px;
 }
 
-.cursive {
-    font-family: 'Dancing Script',cursive;
-    font-size: 60px;
+.title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
 }
 
 p, li {
