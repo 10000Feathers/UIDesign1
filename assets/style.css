@@ -64,6 +64,6 @@ img {
 .profile {
     width: 420px;
     display: block;
-    margin-left: 0;
+    margin-left: -40px;
     border-radius: 12px;
 }
