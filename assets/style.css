@@ -10,10 +10,11 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
     transition: background 500ms ease;
     overflow: hidden;
-    color: red;
+    background-color: yellow;
+    color: blue;
 }
 
-cursive {
+.cursive {
     font-family: cursive;
 }
 
@@ -46,10 +47,6 @@ img {
 /*#grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-}
-
-body {
-	overflow: hidden;
 }
 
 .scroll {
