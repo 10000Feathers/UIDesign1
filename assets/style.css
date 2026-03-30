@@ -27,5 +27,15 @@ p, li {
 }
 
 a {
-    color: purple;
+    color: #ff5a5a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    font-family: monospace;
+    line-height: 1;
 }
