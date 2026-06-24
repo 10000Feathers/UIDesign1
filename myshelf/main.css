@@ -1,54 +1,174 @@
-
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	display: flex;
-	padding: 20px;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-  	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  	background: black;
+    min-height: 100vh;
+    padding: 40px;
+    background: #78c7ff;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 h1 {
-	position: fixed;
-	top: 20px;
-	left: 20px;
-	padding: 7px 20px;
-	background: white;
-	border-radius: 20px;
-	font-size: 18px;
+    position: fixed;
+    top: 25px;
+    left: 30px;
+    z-index: 10;
+    background: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-size: 22px;
+    color: #2b5fa8;
 }
+
+/* clouds */
+
+.cloud {
+    position: fixed;
+    background: white;
+    border-radius: 50px;
+    opacity: 0.9;
+    z-index: 0;
+}
+
+.cloud:before,
+.cloud:after {
+    content: "";
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+}
+
+.cloud:before {
+    width: 70px;
+    height: 70px;
+    top: -35px;
+    left: 25px;
+}
+
+.cloud:after {
+    width: 90px;
+    height: 90px;
+    top: -50px;
+    left: 85px;
+}
+
+#cloud1 {
+    width: 180px;
+    height: 60px;
+    top: 120px;
+    left: 120px;
+}
+
+#cloud2 {
+    width: 220px;
+    height: 70px;
+    top: 260px;
+    right: 120px;
+}
+
+#cloud3 {
+    width: 160px;
+    height: 55px;
+    top: 520px;
+    left: 180px;
+}
+
+/* bookcase */
 
 #bookcase {
-	width: 1200px;
-	height: 2000px;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	justify-content: space-evenly;
-	border: 20px solid grey;
-	background: #333;
+    position: relative;
+    z-index: 1;
+    width: 1200px;
+    height: 2000px;
+    margin: 80px auto;
+    padding: 80px 70px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 80px;
+    background: #9b6335;
+    border: 24px solid #6f3f20;
+    box-shadow: 25px 25px 0 rgba(0,0,0,0.18);
 }
+
+/* shelves */
 
 .shelf {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	align-items: bottom;
-	justify-content: space-evenly;
-	border-bottom: 20px solid lightgrey;
-	padding: 10px 10px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 20px 20px 0 20px;
+    border-bottom: 28px solid #5a321a;
+    background: linear-gradient(to bottom, #c98a4a, #a96d38);
 }
 
+/* toys */
+
 img {
-	width: 140px;
-	height: auto;
-	display: block;
-	align-self: end;
+    max-width: 230px;
+    max-height: 330px;
+    object-fit: contain;
+    display: block;
+    align-self: flex-end;
+    filter: drop-shadow(8px 12px 8px rgba(0,0,0,0.25));
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: translateY(-18px) rotate(-3deg) scale(1.08);
+}
+
+/* individual size tuning */
+
+.shelf:nth-child(1) img:nth-child(1) {
+    max-height: 360px;
+}
+
+.shelf:nth-child(1) img:nth-child(2) {
+    max-height: 330px;
+}
+
+.shelf:nth-child(1) img:nth-child(3) {
+    max-height: 370px;
+}
+
+.shelf:nth-child(2) img:nth-child(1) {
+    max-height: 310px;
+}
+
+.shelf:nth-child(2) img:nth-child(2) {
+    max-height: 250px;
+}
+
+.shelf:nth-child(2) img:nth-child(3) {
+    max-height: 270px;
+}
+
+.shelf:nth-child(3) img:nth-child(1) {
+    max-width: 300px;
+}
+
+.shelf:nth-child(3) img:nth-child(2) {
+    max-width: 330px;
+}
+
+.shelf:nth-child(3) img:nth-child(3) {
+    max-height: 300px;
+}
+
+.shelf:nth-child(4) img:nth-child(1) {
+    max-height: 350px;
+}
+
+.shelf:nth-child(4) img:nth-child(2) {
+    max-height: 300px;
+}
+
+.shelf:nth-child(4) img:nth-child(3) {
+    max-height: 280px;
 }
