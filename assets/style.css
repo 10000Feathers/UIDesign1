@@ -137,6 +137,7 @@ footer a:nth-child(2) {
 .card-9 { left: 1040px; }
 
 /* hover하면 뒤 카드들이 펼쳐짐 */
+
 .card-track:has(.card-1:hover) .card-2,
 .card-track:has(.card-1:hover) .card-3,
 .card-track:has(.card-1:hover) .card-4,
@@ -145,6 +146,7 @@ footer a:nth-child(2) {
 .card-track:has(.card-1:hover) .card-7,
 .card-track:has(.card-1:hover) .card-8,
 .card-track:has(.card-1:hover) .card-9,
+.card-track:has(.card-1:hover) .card-10,
 
 .card-track:has(.card-2:hover) .card-3,
 .card-track:has(.card-2:hover) .card-4,
@@ -153,6 +155,7 @@ footer a:nth-child(2) {
 .card-track:has(.card-2:hover) .card-7,
 .card-track:has(.card-2:hover) .card-8,
 .card-track:has(.card-2:hover) .card-9,
+.card-track:has(.card-2:hover) .card-10,
 
 .card-track:has(.card-3:hover) .card-4,
 .card-track:has(.card-3:hover) .card-5,
@@ -160,32 +163,38 @@ footer a:nth-child(2) {
 .card-track:has(.card-3:hover) .card-7,
 .card-track:has(.card-3:hover) .card-8,
 .card-track:has(.card-3:hover) .card-9,
+.card-track:has(.card-3:hover) .card-10,
 
 .card-track:has(.card-4:hover) .card-5,
 .card-track:has(.card-4:hover) .card-6,
 .card-track:has(.card-4:hover) .card-7,
 .card-track:has(.card-4:hover) .card-8,
 .card-track:has(.card-4:hover) .card-9,
+.card-track:has(.card-4:hover) .card-10,
 
 .card-track:has(.card-5:hover) .card-6,
 .card-track:has(.card-5:hover) .card-7,
 .card-track:has(.card-5:hover) .card-8,
 .card-track:has(.card-5:hover) .card-9,
+.card-track:has(.card-5:hover) .card-10,
 
 .card-track:has(.card-6:hover) .card-7,
 .card-track:has(.card-6:hover) .card-8,
 .card-track:has(.card-6:hover) .card-9,
+.card-track:has(.card-6:hover) .card-10,
 
 .card-track:has(.card-7:hover) .card-8,
 .card-track:has(.card-7:hover) .card-9,
+.card-track:has(.card-7:hover) .card-10,
 
-.card-track:has(.card-8:hover) .card-9 {
+.card-track:has(.card-8:hover) .card-9,
+.card-track:has(.card-8:hover) .card-10,
+
+.card-track:has(.card-9:hover) .card-10 {
   margin-left: 320px;
 }
 
-.card-10 {
-  left: 1170px;
-}
+.card-10 { left: 1170px; }
 
 .black {
   background: #111;
